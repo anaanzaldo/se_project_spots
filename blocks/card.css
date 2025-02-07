@@ -37,12 +37,13 @@
   color: #212121;
   text-overflow: ellipsis;
   white-space: nowrap;
+  overflow: hidden;
   text-align: left;
   max-width: 313px;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
-    height: 413px;
+    height: 288px;
   }
 }
