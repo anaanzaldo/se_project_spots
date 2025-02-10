@@ -1,3 +1,9 @@
+.card {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
 .card__image {
   height: 413px;
   width: 100%;
@@ -16,6 +22,7 @@
   top: 425px;
   left: 390px;
   margin-top: 12px;
+  margin: 0;
   padding: 0;
 }
 
@@ -39,11 +46,22 @@
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
-  max-width: 313px;
+  min-height: 20pxs;
+  max-width: 353px;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__content {
+    width: 288px;
+    height: auto;
+  }
+
+  .cards__list {
+    grid-template-columns: repeat(auto-fit, 288px);
+    gap: 20px;
   }
 }
