@@ -1,21 +1,29 @@
-# Project 3: Spots
+# Project 3: Spot
 
-### Overview  
+An image sharing site.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+### Overview
+
+- Intro
+- Figma
+- Images
+
+## Tech stack
+
+-HTML
+-CSS
+-Reponsive Design
+
+**Deployment**
+
+This webpage is deployed to GITHUB pages.
+
+- [Link to the project](https://anaanzaldo.github.io/se_project_spots/)
+
+**Description**
+
+I will be recreating a social media profile from figma which can allow peoplw to to add, like and remove pictures. In order to make sure you can see it in different devices i will be going media queries.
+
+**images**
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechcrunch.com%2F2017%2F02%2F22%2Finstagram-carousels%2F&psig=AOvVaw30xANflq6_3XduInct288x&ust=1739338990065000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCZ-dz0uosDFQAAAAAdAAAAABAK
