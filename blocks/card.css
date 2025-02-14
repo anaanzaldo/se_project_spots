@@ -1,5 +1,5 @@
 .card {
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -35,7 +35,7 @@
 }
 
 .card__title {
-  font-family: poppin, Arial, Helvetica, sans-serif;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 24px;
   font-size: 20px;
