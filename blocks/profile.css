@@ -26,6 +26,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -40,10 +41,11 @@
   line-height: 1;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  max-width: 288px;
+  color: #212121;
 }
 
 .profile__description {
