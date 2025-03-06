@@ -9,6 +9,7 @@
 }
 
 .profile__add-btn {
+  border: none;
   margin-left: auto;
   margin-top: auto;
   background-color: #212121;
@@ -20,9 +21,16 @@
   font-size: 16px;
   line-height: 1;
   gap: 8px;
+  cursor: pointer;
+}
+
+.profile__add-btn:hover {
+  background-color: #333333;
+  background-image: transparent url(../images/addHover-2.svg);
 }
 
 .profile__avatar {
+  object-fit: cover;
   height: 190px;
   width: 190px;
   margin-right: 20px;
@@ -32,28 +40,42 @@
 .profile__column {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  max-width: 420px;
 }
 
 .profile__name {
   margin: 0 0 12px;
   font-weight: 500;
-  font-size: 32px;
-  line-height: 1;
+  font-size: 20px;
+  font-family: "Poppins", "Arial", "Helvetica", sans-serif;
+  line-height: 1.2;
   text-overflow: ellipsis;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  max-width: 288px;
+  max-width: 420px;
   color: #212121;
 }
 
 .profile__description {
+  font-family: "Poppins", "Arial", "Helvetica", sans-serif;
   margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666666;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__edit-btn {
   margin-top: auto;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1;
   color: #212121;
@@ -62,9 +84,14 @@
   display: flex;
   gap: 8px;
   opacity: 0.7;
-  cursor: pointer;
   border: none;
   justify-items: end;
+  cursor: pointer;
+}
+
+.profile__edit-btn:hover {
+  background-image: transparent url(../images/State=Hover.svg);
+  opacity: 1;
 }
 
 .profile__edit-btn img {
@@ -92,7 +119,6 @@
   }
 
   .profile__name {
-    font-weight: 500;
     font-size: 20px;
     margin: 0 0 6px;
     line-height: 1;

@@ -19,18 +19,24 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
-  top: 425px;
-  left: 390px;
-  margin-top: 12px;
   margin: 0;
   padding: 0;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.card__like-btn:hover {
+  opacity: 0.8;
+  background-image: url(../images/Like_Icon.svg);
 }
 
 .card__content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0;
+  margin-top: 12px;
   min-width: 288px;
 }
 
@@ -39,29 +45,27 @@
   font-weight: 500;
   line-height: 24px;
   font-size: 20px;
-  padding-top: 10px;
-  margin: 0 8px;
+  margin: 0;
   color: #212121;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   text-align: left;
-  min-height: 20pxs;
   max-width: 353px;
 }
 
 @media screen and (max-width: 627px) {
+  .card__title {
+    max-width: 250px;
+    font-size: 16px;
+  }
+
   .card__image {
     height: 288px;
   }
 
   .card__content {
-    width: 288px;
+    width: 100%;
     height: auto;
-  }
-
-  .cards__list {
-    grid-template-columns: repeat(auto-fit, 288px);
-    gap: 20px;
   }
 }

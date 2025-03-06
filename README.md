@@ -28,4 +28,4 @@ I will be recreating a social media profile from figma which can allow peoplw to
 
 https://www.google.com/url?sa=i&url=https%3A%2F%2Ftechcrunch.com%2F2017%2F02%2F22%2Finstagram-carousels%2F&psig=AOvVaw30xANflq6_3XduInct288x&ust=1739338990065000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCZ-dz0uosDFQAAAAAdAAAAABAK
 
-- [Link to the video project](https://drive.google.com/file/d/1Dd3GlW4EvpfRPOmFJVsD8UD9lBSBZGbE/view?usp=share_link)
+- [Link to the video project](https://drive.google.com/file/d/1Dd3GlW4EvpfRPOmFJVsD8UD9lBSBZGbE/view?usp=sharing)
