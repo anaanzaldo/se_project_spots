@@ -1,7 +1,6 @@
 .cards {
   padding-top: 20px;
   gap: 20px;
-  border-bottom: 1px;
 }
 
 .cards__list {
@@ -16,18 +15,13 @@
   justify-content: center;
 }
 
-.cards page__section {
-  max-width: 1280px;
-}
-
 @media screen and (max-width: 627px) {
   .cards {
     padding-top: 8px;
-    padding-left: 10px; /* Adjust as needed */
-    padding-right: 10px; /* Adjust as needed */
   }
 
   .cards__list {
+    padding-bottom: 20px;
     grid-template-columns: repeat(auto-fit, 288px);
     display: flex;
     flex-direction: column;
