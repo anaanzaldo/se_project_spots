@@ -14,12 +14,12 @@ editProfileBtn.addEventListener("click", function () {
   editProfileModal.classList.remove("modal__is-opened");
 });
 
-newProfileBtn.addEventListener("click", function () {
-  newProfileModal.classList.add("modal__is-opened");
+newPostBtn.addEventListener("click", function () {
+  newPostModal.classList.add("modal__is-opened");
 });
 
-newProfileBtn.addEventListener("click", function () {
-  newProfileModal.classList.remove("modal__is-opened");
+newPostBtn.addEventListener("click", function () {
+  newPostModal.classList.remove("modal__is-opened");
 });
 
 const initialcards = [
