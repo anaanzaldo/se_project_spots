@@ -8,7 +8,7 @@
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
 }
 
-.profile__add-btn {
+.profile__new-post-btn {
   border: none;
   margin-left: auto;
   margin-top: auto;
@@ -25,7 +25,7 @@
   background-image: transparent url(../images/addHover-2.svg);
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
   opacity: 0.8;
 }
 
@@ -130,7 +130,7 @@
     padding-top: 32px;
   }
 
-  .profile__add-btn {
+  .profile__new-post-btn {
     width: 288px;
     height: 52px;
     margin: 0;
