@@ -10,7 +10,7 @@ editProfileBtn.addEventListener("click", function () {
   editProfileModal.classList.add("modal_is-opened");
 });
 
-editProfileBtn.addEventListener("click", function () {
+editProfileClosebtn.addEventListener("click", function () {
   editProfileModal.classList.remove("modal_is-opened");
 });
 
@@ -18,7 +18,7 @@ newPostBtn.addEventListener("click", function () {
   newPostModal.classList.add("modal_is-opened");
 });
 
-newPostBtn.addEventListener("click", function () {
+newPostCloseBtn.addEventListener("click", function () {
   newPostModal.classList.remove("modal_is-opened");
 });
 
