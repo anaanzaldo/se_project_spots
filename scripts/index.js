@@ -16,21 +16,19 @@ const newPostForm = newPostModal.querySelector(".modal__form");
 const cardImageInput = newPostModal.querySelector("#card-image-input");
 const cardCaptionInput = newPostModal.querySelector("#card-caption-input");
 
-const profileNameEl = document.querySelector(".profile__name");
-const profileDescriptionEl = document.querySelector(".profile__description");
+const profileNameEl = document.querySelector(".profile-name");
+const profileDescriptionEl = document.querySelector(".profile-description");
+
+const cardImageEl = document.querySelector(".card-image");
+const cardCaptionEl = document.querySelector(".card-caption");
 
 editProfileBtn.addEventListener("click", function () {
+  editProfileNameInput.value = profileNameEl.textContent;
+  editProfileDescriptionInput.value = profileDescriptionEl.textContent;
   editProfileModal.classList.add("modal_is-opened");
 });
 
 editProfileCloseBtn.addEventListener("click", function () {
-  editProfileModal.classList.remove("modal_is-opened");
-});
-
-editProfileForm.addEventListener("submit", function (evt) {
-  evt.preventDefault();
-  profileNameEl.textContent = editProfileNameInput.value;
-  profileDescriptionEl.textContent = editProfileDescriptionInput.value;
   editProfileModal.classList.remove("modal_is-opened");
 });
 
@@ -43,25 +41,24 @@ newPostCloseBtn.addEventListener("click", function () {
   newPostModal.classList.remove("modal_is-opened");
 });
 
-function handleEditProfileSubmit(evt) {
+function handleProfileFormSubmit(evt) {
   evt.preventDefault();
-  console.log("submitting");
-}
 
-editProfileForm.addEventListener("submit", function (evt) {
-  evt.preventDefault();
   profileNameEl.textContent = editProfileNameInput.value;
   profileDescriptionEl.textContent = editProfileDescriptionInput.value;
-  closeModal(editProfileModal);
-});
+  editProfileModal.classList.remove("modal_opened");
+}
 
-newPostForm.addEventListener("submit", function (evt) {
+function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  console.log("New post data:");
-  console.log("Image URL:", cardImageInput.value);
-  console.log("Caption:", cardCaptionInput.value);
-  newPostModal.classList.remove("modal_is-opened");
-});
+  cardImageEl.textContent = cardImageInput.value;
+  cardCaptionEl.textContent = cardCaptionInput.value;
+  closemodal();
+}
+
+editProfileForm.addEventListener("submit", handleProfileFormSubmit);
+
+newPostForm.addEventListener("submit", handleProfileFormSubmit);
 
 const initialcards = [
   {
