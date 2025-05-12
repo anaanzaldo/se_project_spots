@@ -34,6 +34,7 @@
 }
 
 .modal__close-btn {
+  padding: 0;
   position: absolute;
   top: 32px;
   right: 50px;
@@ -43,7 +44,8 @@
   border: none;
   color: #212121;
   opacity: 0.4;
-  background-image: transparent url(./images/xicon.svg);
+  background-image: url(../images/close.svg);
+  background-color: rgba(255, 255, 255, 1);
   cursor: pointer;
 }
 
@@ -57,6 +59,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
+  color: #212121;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -73,6 +76,9 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
+  color: #212121;
+  opacity: 70%;
+  color: #212121;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -87,21 +93,17 @@
   font-size: 20px;
   line-height: 1;
   box-sizing: border-box;
+  cursor: pointer;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .modal__input::placeholder {
   color: #2121214d;
-  opacity: 0.4;
 }
 
 .modal__submit-btn {
   border: none;
   border-radius: 8px;
-  top: 18px;
-  right: 32px;
-  bottom: 18px;
-  left: 32px;
   gap: 8px;
   background-color: #212121;
   color: #fcf5e5;
@@ -128,7 +130,7 @@
   }
 
   .modal__container {
-    max-width: 276px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,35 +141,26 @@
   .modal__title {
     font-size: 20px;
     justify-self: center;
-    font-weight: 500;
   }
 
   .modal__close-btn {
-    position: absolute;
-    top: 22px;
+    top: 12px;
     right: 12px;
-    width: 40px;
-    height: 40px;
-    opacity: 40%;
   }
 
   .modal__submit-btn {
     max-width: none;
     align-items: center;
     width: 100%;
-    padding: 18px 118px;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
   .modal__input {
     max-width: 276px;
     width: 100%;
     font-size: 16px;
-    box-sizing: border-box;
   }
 
   .modal__label {
     margin: 0 0 24px;
-    padding-bottom: 24px;
   }
 }
