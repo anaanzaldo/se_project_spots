@@ -59,7 +59,7 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 1;
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
@@ -76,7 +76,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1;
-  color: #212121;
   opacity: 70%;
   color: #212121;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -95,6 +94,10 @@
   box-sizing: border-box;
   cursor: pointer;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.modal__input:hover {
+  border: 1px solid rgba(33, 33, 33, 1);
 }
 
 .modal__input::placeholder {
